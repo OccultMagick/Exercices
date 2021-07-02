@@ -1,0 +1,5 @@
+Credentials cache: API:517D201D-4095-4581-BF07-335BB6C58A4C
+        Principal: rcondeco@42LISBOA.COM
+
+  Issued                Expires               Principal
+Jun 30 10:30:08 2021  Jun 30 20:30:08 2021  krbtgt/42LISBOA.COM@42LISBOA.COM
