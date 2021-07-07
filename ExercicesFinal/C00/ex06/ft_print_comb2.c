@@ -6,7 +6,7 @@
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/06 12:26:20 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/07 14:15:06 by rcondeco         ###   ########.fr       */
+/*   Updated: 2021/07/07 15:08:50 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,10 @@ void	ft_putchar(char c)
 
 void	ft_print_comb2(void)
 {
-	int	a = 0;
-	int b = 0;
+	int	a;
+	int	b;
 
+	a = 0;
 	while (a <= 98)
 	{
 		b = a + 1;
