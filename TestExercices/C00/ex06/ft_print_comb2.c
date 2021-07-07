@@ -1,25 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/05 10:18:23 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/07 14:10:45 by rcondeco         ###   ########.fr       */
+/*   Created: 2021/07/06 12:26:20 by rcondeco          #+#    #+#             */
+/*   Updated: 2021/07/07 14:15:06 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(int n)
+void	ft_putchar(char c)
 {
-	if (n >= 0)
+	write(1, &c, 1);
+}
+
+void	ft_print_comb2(void)
+{
+	int	a = 0;
+	int b = 0;
+
+	while (a <= 98)
 	{
-		write(1, "P", 1);
-	}		
-	else
-	{
-		write(1, "N", 1);
+		b = a + 1;
+		while (b <= 99)
+		{
+			ft_putchar(48 + a / 10);
+			ft_putchar(48 + a % 10);
+			write(1, " ", 1);
+			ft_putchar(48 + b / 10);
+			ft_putchar(48 + b % 10);
+			if (a != 98 || b != 99)
+			{
+				write(1, ", ", 2);
+			}
+			b++;
+		}
+		a++;
 	}
 }

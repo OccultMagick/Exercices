@@ -1,25 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/05 10:18:23 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/07 14:10:45 by rcondeco         ###   ########.fr       */
+/*   Created: 2021/07/07 14:54:23 by rcondeco          #+#    #+#             */
+/*   Updated: 2021/07/07 14:56:08 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_is_negative(int n)
+void ft_putchar(char c)
 {
-	if (n >= 0)
-	{
-		write(1, "P", 1);
-	}		
-	else
-	{
-		write(1, "N", 1);
-	}
+	write(1, &c, 1);
+}
+
+void ft_too_hard(void)
+{
+	ft_putchar("Too Hard");
 }

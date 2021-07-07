@@ -6,7 +6,7 @@
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/05 11:15:51 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/05 16:36:31 by rcondeco         ###   ########.fr       */
+/*   Updated: 2021/07/07 14:12:40 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,4 @@ void	ft_print_comb(void)
 		}
 		centenas++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb();
 }

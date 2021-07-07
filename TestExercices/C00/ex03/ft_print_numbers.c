@@ -6,7 +6,7 @@
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/01 20:16:44 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/05 11:39:15 by rcondeco         ###   ########.fr       */
+/*   Updated: 2021/07/07 14:09:07 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,4 @@ void	ft_print_numbers(void)
 		write (1, &number, 1);
 		number++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_numbers();
 }

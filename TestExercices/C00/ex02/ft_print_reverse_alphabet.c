@@ -6,7 +6,7 @@
 /*   By: rcondeco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/01 18:57:37 by rcondeco          #+#    #+#             */
-/*   Updated: 2021/07/05 11:30:56 by rcondeco         ###   ########.fr       */
+/*   Updated: 2021/07/07 14:05:52 by rcondeco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,4 @@ void	ft_print_reverse_alphabet(void)
 		write(1, &letter, 1);
 		letter--;
 	}
-}
-
-int	main(void)
-{
-	ft_print_reverse_alphabet();
 }
